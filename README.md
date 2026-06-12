@@ -68,10 +68,16 @@ video-clone/
 │   │   ├── SKILL.md              ← deconstruct a video → reusable TEMPLATE (.md)
 │   │   └── scripts/
 │   │       └── extract-frames.sh ← ffmpeg frame + audio extraction (portable)
-│   └── prompt-library/
+│   └── prompt-library/           ← 8 ready-to-use style formulas + a skeleton
 │       ├── _TEMPLATE.md          ← skeleton for a new style template
-│       ├── ugc-selfie.md         ← generic UGC selfie-style formula
-│       └── product-hero.md       ← generic no-person product-hero formula
+│       ├── ugc-selfie.md         ← phone-filmed review / testimonial
+│       ├── unboxing-hype.md      ← high-energy package → reveal → reaction
+│       ├── problem-solution.md   ← before/after direct-response arc
+│       ├── testimonial-authority.md ← founder/expert talking head, trust-led
+│       ├── feature-walkthrough.md   ← fast-paced feature demo
+│       ├── studio-lookbook.md    ← polished multi-look spot w/ voiceover
+│       ├── product-hero.md       ← no-person elemental product reveal
+│       └── premium-reveal.md     ← no-person dark-void text-narrative drop
 └── logs/
     └── README.md                 ← generation log schema (logs/video-clone.jsonl)
 ```
@@ -82,4 +88,3 @@ video-clone/
   [`adapters/_ADAPTER.template.md`](adapters/_ADAPTER.template.md).
 - Understanding the agent's behavior → [`SKILL.md`](SKILL.md).
 - Cloning your first ad → [`prompting/clone-ad/SKILL.md`](prompting/clone-ad/SKILL.md).
-# video-cloner

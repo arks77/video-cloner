@@ -42,9 +42,24 @@ max duration", resolve it against `adapters/active.md`.
 |-----------|-------|
 | "Clone this ad for my product" — input video + product → **a generated video** | [prompting/clone-ad/SKILL.md](prompting/clone-ad/SKILL.md) |
 | "Turn this video into a template / analyze this style" → **a reusable `.md` template** | [prompting/analyze-video/SKILL.md](prompting/analyze-video/SKILL.md) |
-| "Make a UGC selfie-style video ad" from a brief | [prompting/prompt-library/ugc-selfie.md](prompting/prompt-library/ugc-selfie.md) |
-| "Make a no-person product-hero video" from a brief | [prompting/prompt-library/product-hero.md](prompting/prompt-library/product-hero.md) |
+| Generate from a brief — pick the matching **style** from the prompt library (below) | [prompting/prompt-library/](prompting/prompt-library/) |
 | A style not covered yet | Build one with [prompting/prompt-library/_TEMPLATE.md](prompting/prompt-library/_TEMPLATE.md) |
+
+### Prompt library — pick a style
+
+| Style | When | File |
+|-------|------|------|
+| **UGC selfie** | phone-filmed review/testimonial, one person to camera | [ugc-selfie.md](prompting/prompt-library/ugc-selfie.md) |
+| **Unboxing hype** | high-energy package → reveal → reaction | [unboxing-hype.md](prompting/prompt-library/unboxing-hype.md) |
+| **Problem → solution** | before/after direct-response arc | [problem-solution.md](prompting/prompt-library/problem-solution.md) |
+| **Testimonial / authority** | composed founder/expert talking head, trust-led | [testimonial-authority.md](prompting/prompt-library/testimonial-authority.md) |
+| **Feature walkthrough** | fast-paced demo hitting feature after feature | [feature-walkthrough.md](prompting/prompt-library/feature-walkthrough.md) |
+| **Studio lookbook** | polished multi-look spot with calm voiceover | [studio-lookbook.md](prompting/prompt-library/studio-lookbook.md) |
+| **Product hero** | no person, elemental reveal (splash/light/orbit) | [product-hero.md](prompting/prompt-library/product-hero.md) |
+| **Premium reveal** | no person, dark-void text-narrative luxury drop | [premium-reveal.md](prompting/prompt-library/premium-reveal.md) |
+
+If the user's request straddles two, pick the closest and note the blend; if none fit,
+build a new one from `_TEMPLATE.md`.
 
 **clone-ad vs analyze-video:** clone-ad's output is a finished video for one product;
 analyze-video's output is a template you can reuse for many products. If the user wants
